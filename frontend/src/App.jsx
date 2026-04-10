@@ -8,7 +8,7 @@ import BookingModal from './components/BookingModal';
 import ProfilePanel from './components/ProfilePanel';
 import SettingsPanel from './components/SettingsPanel';
 import Toast from './components/Toast';
-import { api } from './api';
+import { api } from './api/api';
 
 // ── Session helpers ───────────────────────────
 const SESSION_KEY = 'sw_session';
