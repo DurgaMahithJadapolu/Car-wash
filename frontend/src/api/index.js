@@ -3,7 +3,7 @@
 // All HTTP calls to the Express backend
 // ─────────────────────────────────────────────
 
-const BASE = process.env.REACT_APP_API_URL || '/api';
+const BASE = 'https://sparklewash-dcv6.onrender.com/api';
 
 const getToken = () =>
   localStorage.getItem('sw_token') || sessionStorage.getItem('sw_token');
